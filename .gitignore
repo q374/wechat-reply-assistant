@@ -1,0 +1,60 @@
+# 本地开发工具与 SDK
+/android-sdk/
+/bin/
+/jbr/
+/lib/
+/modules/
+/plugins/
+/license/
+/tools/
+/commandlinetools-*.zip
+
+# 本地工作记录不提交到仓库
+/work/
+/video-promo/
+/MEMORY.md
+/TASKS.md
+/AGENTS.md
+/docs/AI_PM_INTERVIEW_CASE.md
+/docs/RESUME_CASE.md
+/hello-world-test/
+/docs/DEVELOPMENT_WORKFLOW.md
+/docs/P6_PLAN.md
+/docs/P6_UX_PLAN.md
+
+# 本机临时证据和视频工程
+**/screenshots/
+**/evidence/
+**/node_modules/
+**/.cache/
+
+# 安装包和大型本地产物
+*.zip
+*.exe
+*.apk
+*.aab
+
+# Android 构建产物
+**/build/
+**/out/
+.gradle/
+
+# 本地 IDE 与系统文件
+.idea/
+*.iml
+local.properties
+.secrets/
+*.jks
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# 本地日志与临时文件
+*.log
+*.tmp
+
+# Python cache
+__pycache__/
+*.py[cod]

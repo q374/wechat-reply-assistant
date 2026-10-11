@@ -1,0 +1,10 @@
+<resources>
+    <string name="accessibility_service_description">仅在微信中响应回填流程，只在你再次确认后写入当前输入框，不会读取聊天内容或发送消息。</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#2F785B</item>
+        <item name="android:navigationBarColor">#F6EFE2</item>
+        <item name="android:statusBarColor">#F6EFE2</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
